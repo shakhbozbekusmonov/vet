@@ -341,21 +341,21 @@ template {
 /* FONTS */
 @font-face {
   font-family: "Futura PT";
-  src: url("FuturaPT-Bold.woff2") format("woff2"), url("FuturaPT-Bold.woff") format("woff");
+  src: url("../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Futura PT";
-  src: url("FuturaPT-Light.woff2") format("woff2"), url("FuturaPT-Light.woff") format("woff");
+  src: url("../fonts/FuturaPT-Light.woff2") format("woff2"), url("../fonts/FuturaPT-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Futura PT";
-  src: url("FuturaPT-Medium.woff2") format("woff2"), url("FuturaPT-Medium.woff") format("woff");
+  src: url("../fonts/FuturaPT-Medium.woff2") format("woff2"), url("../fonts/FuturaPT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -556,4 +556,49 @@ img {
   line-height: 21px;
   text-decoration: none;
   color: #333;
+}
+
+/******************** HERO SECTION *******************/
+.hero-section {
+  padding-top: 153px;
+  padding-bottom: 311px;
+  background-image: url("../../images/hero-start-bg.png"), url("../../images/hero-end-bg.png");
+  background-position: calc(50% - 500px) calc(50% - 185px), calc(50% + 682px) calc(50% + 109px);
+  background-repeat: no-repeat;
+}
+.hero-section__end {
+  width: 100%;
+  max-width: 608px;
+  margin-left: auto;
+}
+.hero-section__title {
+  margin-top: 0;
+  margin-bottom: 29px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333;
+}
+.hero-section__title-green {
+  color: #78C0DE;
+}
+.hero-section__desc {
+  width: 100%;
+  max-width: 494px;
+  margin-top: 0;
+  margin-bottom: 38px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+.hero-section__btn-link {
+  display: inline-block;
+  padding: 15px 48px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: #333;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

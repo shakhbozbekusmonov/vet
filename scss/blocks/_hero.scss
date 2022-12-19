@@ -1,0 +1,50 @@
+/******************** HERO SECTION *******************/ 
+.hero-section{
+    padding-top: 153px;
+    padding-bottom: 311px;
+    background-image: url("../../images/hero-start-bg.png"), url("../../images/hero-end-bg.png");
+    background-position: calc(50% - 500px) calc(50% - 185px), calc(50% + 682px) calc(50% + 109px);
+    background-repeat: no-repeat;
+    
+    &__end{
+        width: 100%;
+        max-width: 608px;
+        margin-left: auto;
+    }
+    
+    &__title{
+        margin-top: 0;
+        margin-bottom: 29px;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333;
+    }
+    
+    &__title-green{
+        color: #78C0DE;
+    }
+    
+    &__desc{
+        width: 100%;
+        max-width: 494px;
+        margin-top: 0;
+        margin-bottom: 38px;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+    }
+
+    &__btn-link{
+        display: inline-block;
+        padding: 15px 48px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        text-decoration: none;
+        border-radius: 3px;
+        background-color: #333;
+        color: #fff;
+    }
+}
+
